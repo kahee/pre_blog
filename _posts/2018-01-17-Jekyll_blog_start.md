@@ -2,12 +2,12 @@
 layout: post
 title: "Jekyll Git 블로그 만들기"
 date: 2018-01-17 12:00:00
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img:  # Add image post (optional)
 ---
 # Jekyll 블로그 만들기
-Web-Programming School 1월 17일 수업 <br>
 [Che1's Blog 참고](https://nachwon.github.io/)
+>Web-Programming School 1월 17일 수업 <br>
+ 본 문서는 패스트캠퍼스 'Web-Programming School' 수업 자료를 바탕으로 작성되었습니다.
 
 --------------
 ## 루비 설치
