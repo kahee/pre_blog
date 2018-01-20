@@ -10,8 +10,8 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Zoe # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer. # add description
+author-img: blog_profile.jpg # add your photo
+about-author: 문과생 개발자 <br>  # add description
 twitter: # add your Twitter handle
 facebook: # add your Facebook handle
 github: artemsheludko # add your Github handle
