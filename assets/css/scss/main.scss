@@ -119,6 +119,10 @@ table tfoot td {
 .clearfix::after {
   clear: both;
 }
+// categories 추가
+div.categories {
+  text-align: center;
+}
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';

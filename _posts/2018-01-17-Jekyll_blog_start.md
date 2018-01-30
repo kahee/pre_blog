@@ -9,6 +9,8 @@ img:  # Add image post (optional)
 >Web-Programming School 1월 17일 수업 <br>
  본 문서는 패스트캠퍼스 'Web-Programming School' 수업 자료를 바탕으로 작성되었습니다.
 
+**Ubuntu 16.04 환경**
+
 --------------
 ## 루비 설치
 ### 패키지 목록 업데이트

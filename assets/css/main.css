@@ -6,6 +6,20 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+
+ /* // categories 추가 */
+ div.categories {
+   text-align: center;
+   margin-top: -8px;
+ }
+ div.contact-div {
+   margin: 15px;
+ }
+ a.category {
+   text-decoration:none;
+   color: black;
+ }
+
 html {
   line-height: 1.15;
   /* 1 */
