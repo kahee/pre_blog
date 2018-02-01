@@ -109,9 +109,7 @@ TIME_ZONE = 'Asia/Seoul'
 <!-- manage.py가 있는 command-line -->
 $python manage.py runserver
 ```
-
-<!-- ![장고이미지]({{ site.url }}/assert/img/post_img/djangorunserver.png)
-<img src = "./post_img/djangorunserver.png"> -->
+<img src = "{{ site.url }}/assets/img/post_img/djangorunserver.png">
 
 
 ### 장고 모델

@@ -163,4 +163,32 @@ TEMPLATES = [
 ]
 ```
 
-템플릿 경로를 추가해주고, `localhost:8000`을 들어가면 하얀 빈페이지를 볼 수 있다!<br>
+템플릿 경로를 추가해주고, `localhost:8000`을 들어가면 빈 페이지를 볼 수 있다!<br>
+
+### 맞춤형 템플린 만들기
+**blog/template/blog/post_list.html** 파일
+```html
+<html>
+    <head>
+        <title>Django Girls blog</title>
+    </head>
+    <body>
+        <div>
+            <h1><a href="">Django Girls Blog</a></h1>
+        </div>
+
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">My first post</a></h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">My second post</a></h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
+        </div>
+    </body>
+</html>
+```
+<!-- 그림넣기  -->
