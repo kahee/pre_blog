@@ -191,4 +191,5 @@ TEMPLATES = [
     </body>
 </html>
 ```
-<!-- 그림넣기  -->
+
+<img src = "{{ site.url }}/assets/img/post_img/django_post_list.png/">
