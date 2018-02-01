@@ -191,5 +191,5 @@ TEMPLATES = [
     </body>
 </html>
 ```
-
+**post_list.html** 작성 완료 후, 서버에 들어갔을 때 보이는 화면
 <img src = "{{ site.url }}/assets/img/post_img/django_post_list.png/">
