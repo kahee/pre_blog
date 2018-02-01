@@ -6,10 +6,12 @@ img: ./post_img/django.png
 category: Django
 ---
 >본 문서는 패스트캠퍼스 'Web-Programming School' 수업 자료를 바탕으로 작성되었습니다.
+><br> [장고걸스](https://tutorial.djangogirls.org/ko/) 페이지를 참고하였습니다.
 ><Br>**Ubuntu 16.04 환경**
 ><br>**Django 2.0 환경**
 
 ---
+
 ## 가상환경 설정
 ```
 $pyenv virtualenv 3.6.4 fc-djangogirls
