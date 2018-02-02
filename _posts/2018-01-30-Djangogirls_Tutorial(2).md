@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Djangogirls_Tutoria(2)"
+title: "Djangogirls_Tutorial(2)"
 date: 2018-01-30 09:00:00
 img: ./post_img/django.png
 category: Django
