@@ -283,7 +283,7 @@ path('post/<int:pk>', views.post_detail, name='post-detail'),
     <p class="post-date">{{ post.created_date }}</p>
     <!-- 제목을 누르면 post-detail url로 넘어간다. -->
     <!-- 이때 글의 번호를 함께 넘겨줌 -->
-    <h2 class="post-title"><a href="{ url 'post-detail' pk=post.pk }">{{ post.title }}</a></h2>
+    <h2 class="post-title"><a href="{ url 'post-detail }">{{ post.title }}</a></h2>
     <p class="post-content">{{ post.content |linebreaksbr|truncatewords:30 }}</p>
 </div>
 ```
@@ -307,4 +307,11 @@ URL name: post-detail
           kwargs: {pk: <int value>}
 Path:     post/<int:pk>/
 URL:      localhost:8000/post/<int value>/
+```
+
+수정된 코드
+
+```html
+<!-- 거꾸로 어떤 Post.id 인지를 받아오기 위해, 함께 넘겨줘야 함.  -->
+  <h2 class="post-title"><a href="{ url 'post-detail pk=post.id }">{{ post.title }}</a></h2>
 ```
